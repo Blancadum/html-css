@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformación de Formulario</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+    <h1>Condiciones legales</h1>
+</header>
+
+<main>
+    <form action="procesar.php" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Información personal</legend>
+
+            <label for="nombre">D/Dª:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Introduzca nombre" required>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Sus apellidos" required>
+
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni" name="dni" pattern="^[0-9]{8}[A-Z]$" title="Debe tener 8 números seguidos de una letra mayúscula, como 12345678Z" placeholder="Introduzca su DNI" required>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" placeholder="Introduzca su dirección" required>
+
+            <label for="localidad">Localidad *</label>
+            <select id="localidad" name="localidad" required>
+                <optgroup label="Almería">
+                    <option value="almeria">Almería</option>
+                    <option value="roquetas">Roquetas de Mar</option>
+                    <option value="ejido">El Ejido</option>
+                </optgroup>
+                <optgroup label="Cádiz">
+                    <option value="cadiz">Cádiz</option>
+                    <option value="jerez">Jerez de la Frontera</option>
+                    <option value="algeciras">Algeciras</option>
+                </optgroup>
+                <optgroup label="Córdoba">
+                    <option value="cordoba">Córdoba</option>
+                    <option value="lucena">Lucena</option>
+                    <option value="puente_genil">Puente Genil</option>
+                </optgroup>
+                <optgroup label="Granada">
+                    <option value="granada">Granada</option>
+                    <option value="motril">Motril</option>
+                    <option value="baza">Baza</option>
+                </optgroup>
+                <optgroup label="Huelva">
+                    <option value="huelva">Huelva</option>
+                    <option value="lepe">Lepe</option>
+                    <option value="isla_cristina">Isla Cristina</option>
+                </optgroup>
+                <optgroup label="Jaén">
+                    <option value="jaen">Jaén</option>
+                    <option value="linares">Linares</option>
+                    <option value="andujar">Andújar</option>
+                </optgroup>
+                <optgroup label="Málaga">
+                    <option value="malaga">Málaga</option>
+                    <option value="marbella">Marbella</option>
+                    <option value="fuengirola">Fuengirola</option>
+                </optgroup>
+                <optgroup label="Sevilla">
+                    <option value="sevilla">Sevilla</option>
+                    <option value="dos_hermanas">Dos Hermanas</option>
+                    <option value="alcala_guadaira">Alcalá de Guadaíra</option>
+                </optgroup>
+            </select>
+            <br>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="phone" pattern="[0-9]{9}">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
+
+        </fieldset>
+
+        <fieldset class="bloque-derechos">
+            <legend>SOLICITA</legend>
+            <p>Marque el derecho que desea ejercitar:</p>
+            <label>
+                <input type="checkbox" name="derechos[]" value="acceso">
+                Ejercitar el <a href="#" target="_blank">derecho de acceso</a> a sus datos de carácter personal</label>
+                <br>
+                <div class="subopciones">
+                    <label>
+                        <input type="checkbox" name="direccion_postal[]" value="direccion_postal">
+                        Solicitando que se le remita dicha información a su dirección postal.
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="correo_electronico[]" value="correo_electronico">
+                        Solicitando que se le remita dicha información a su dirección de correo electrónico.
+                    </label>
+                </div>
+                <br>
+            <label>
+                <input type="checkbox" name="derecho_rectificacion[]" value="derecho_rectificacion">
+                Ejercitar el <a href="#">Derecho de Rectificación</a> de los siguientes datos de carácter personal en el sentido que se indica a continuación:
+
+            <br>
+            </label>
+            <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe tu comentario aquí">
+
+            </textarea>
+        </fieldset>
+        <div class="buttons">
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetear</button>
+        </div>
+    </form>
+</main>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+PREGUNTAS/ACTIVIDADES A REALIZAR
+
+Pregunta 1. ¿Qué son las etiquetas de los formularios?
+Las etiquetas, en el contexto de los formularios, nos van a permitir crear bloques de información determinada, para la cual se hará una solicitud al usuario, motivo por el cual, interactúan con nuestro código para obtener información de algún tipo. Una etiqueta estaría clasificando cada una de las partes del formulario, tanto en el lado de la "pregunta" (o cliente) como en el lado de la "respuesta" (o usuario). Por eso se dice que los formularios son elementos interactivos.
+
+Los formularios de verdad establecen conexiones entre cliente y servidor pero a este nivel en el que estamos en el que no manejamos backend, no necesitamos saberlo. 
+
+Algunas etiquetas más habituales son: <form>, <input>, <textarea>, <label>, <button>, <select>, <option>. 
+
+Pregunta 2. ¿Qué tipos de etiquetas podemos encontrar?
+
+Si tuviéramos que clasificar las etiquetas, podríamos decir que hay etiquetas para describir el contenedor principal, para la entrada de los datos por parte del usuario. Es decir, <input>, que, a su vez puede ser tipo <text> (si queremos que el usuario introduzca un texto), <email> (para el email con @...), <password>, <radio>, <checkbox>, <file>, <submit> (para el envío de la información), <button>, etc. 
+
+Lógicamente, podremos añadir lógica de comportamiento a cada uno de estas etiquetas para establecer límites de caracteres, requisitos fundamentales para password o email. De manera que antes de que el usuario pueda clicar en button, esos campos deberán cumplir los requisitos que establecemos. Esto, desde el mismo html, es vulnerable y puede "burlarse" modificando el código fuente desde las herramientas de desarrollador de Google. Por eso lo más seguro, si queremos que la información se comunique por el protocolo POST, es establecer estos requisitos en la misma base de datos (backend), estableciendo comunicación con el servidor para estas validaciones. 
+
+Pregunta 3. ¿Qué significa maquetar formularios con etiquetas BR? ¿Y maquetar mediante tablas?
+Maquetar con BR es maquetar con saltos de linea y considero que, dando igual lo que se quiera maquetar, los saltos de linea no son un método adecuado para ello. Maquetar mediante tablas, por lo general, ha quedado obsoleto cuando hablamos de desarrollo web en general. Sin embargo para los mailings, la maquetación con tablas insertando en linea el estilo (sin linkear hoja de estilos css) es la única vía posible. 
+
+La idea con los formularios es utilizar las etiquetas propias de los forms, como "<label>" o "<input>", que sería lo más parecido a los "div" pero con el añadido de que se está haciendo alusión a la semántica de la información que se incluye entre sus límites. Sin embargo, lo óptimo sería agrupar los <label> y los <input> en divs con clases, a los que poder atribuir estilos desde la hoja de estilos, generando una organización de tipo flexbox o grid desde esas hojas de estilo que vayamos a enlazar y que deberemos asegurarnos de que sean responsive y amigables con distintos dispositivos (mobile first) y características del usuario (UX y cuestiones de adaptabilidad). 

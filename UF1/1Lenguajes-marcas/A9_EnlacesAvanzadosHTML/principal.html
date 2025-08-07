@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+</head>
+<body>
+    <p id="inicio">Éste es el principio de la página, un texto ancla</p> 
+    <!--Enlace a Google con dirección absoluta y target="_blank"-->
+    <p>Ir a <a href="https://google.es" target="_blank">Google</a></p>    
+    Volver a la Home
+    
+    <!--Una o varias noticias-->
+    <section class="news">
+        <article id="health">
+            <h1 style="font-size:xx-large">Una app de terapia digital que ha venido a quedarse</h1>
+                <p>“Nuestro objetivo es mejorar la comunicación entre personas y potenciar herramientas terapéuticas digitales”, explica Blanca de Uña, fundadora de la compañía.<br>
+                La app ya ha sido probada en varios centros de salud mental y podría implementarse en servicios de atención al cliente y formación online.</p>
+            <h2>Soñar es gratis</h2>            
+                <p>La autora de la app, en declaraciones al diario Serendipia, ha dejado claro que la vida es sueño y <span style="font-style:italic">soñar es gratis</span>, que qué le vamos a hacer... </p>
+                <p>Pero que la app no es gratis, motivo por el cual ha tenido que ir a buscar financiación casa por casa porque en la junta de Andalucía ya no quedaba para este tipo de gastos destinados a salud mental porque los han gastado en el bono juvenil. Y  que "la salud mental es importante, pero no tanto".</p>
+        </article>
+        <article id="malaga">
+            <h1 style="font-size:xx-large">Malaga inaugura el primer parque urbano diseñado por niños y niñas con discapacidad</h1>
+                <p>Toboganes musicales, túneles con luz solar reciclada y un espacio de lectura al aire libre son solo algunas de las propuestas realizadas por más de 300 estudiantes con algún tipo de discapacidad.</p>
+            <h2>Un parque inclusivo</h2>            
+                <p>Con la colaboración del grupo de investigación "Inclusión urbana" de la Universidad de Málaga, el parque ha sido dotado de todas las infraestruturas necesarias para que pueda ser considerado un espacio respetuoso con la diversidad funcional. No importa qué tipo de discapacidad tengan. Los niños son niños y necesitan libertad. El juego es un derecho universal.</p>
+        </article>
+    </section>
+
+    <!--Un enlace interno que lleve al principio de la página-->
+    <div>
+    <p><a type="button" href="#inicio" target="self" style="background-color: yellowgreen; border-radius: 30%; border:2px, black, solid; padding:3px">Subir</a></p>
+    </div>
+
+    <!--Un enlace que lleve a un archivo de imagen-->
+    <p>El personaje más icónico de Málaga a un solo <a href="https://img.huffingtonpost.es/uploads/2023/01/12/63bf830d1b514.gif" target="_blank">clic</a> de ti.</p>
+
+    <!--Un enlace que lleve a otra página web usando dirección relativa. La nueva página se creará en la misma carpeta y se la llamára "contacto.html", se desea que se abra en la misma ventana target="self"-->
+    <p>Para más información, <a href="contacto.html" target="_self">Contacta con nosotros</a>.</p>
+
+    <br>
+
+</body>
+</html>

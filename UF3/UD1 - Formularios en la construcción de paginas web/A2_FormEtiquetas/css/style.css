@@ -1,0 +1,206 @@
+/* Reset básico  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Reset de formularios */
+input, button, select, textarea {
+  font: inherit;
+  color: inherit;
+  border: none;
+  outline: none;
+  background: none;
+  box-shadow: none;
+}
+
+/* Estilos para form */
+.form-group{
+    margin-bottom: 1em;
+}
+
+label.option{
+    display: flex;
+    align-items: center; 
+    gap: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+form {
+    max-width: 600px;
+    margin: 1em auto;
+    padding: 0.8em;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 0.5em 0.5em;
+    margin-bottom: 1em;
+}
+
+legend {
+    font-size: 0.95em;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 0.5em;
+}
+
+label {
+    display: block;
+    margin: 0.3em 0 0.2em;
+    font-weight: 600;
+    font-size: 0.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+    margin-bottom: 0.4em;
+    padding: 0.3em 0.5em;
+    width: 100%;
+    font-size: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: green;
+    outline: none;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0.5em;
+    transform: scale(1.05);
+    accent-color: green;
+    cursor: pointer;
+    transition: transform 0.15s ease-in-out;
+    line-height: normal;
+}
+
+input[type="radio"]:hover,
+input[type="checkbox"]:hover {
+    transform: scale(1.08);
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 2px solid green;
+    border-radius: 15px;
+    background-color: #d2f5e0;
+    flex-wrap: wrap;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    line-height: 1em;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.checkbox-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5em 1em;
+    margin-bottom: 1em;
+}
+
+.checkbox-grid label {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+button {
+    padding: 0.6em 0.8em;
+    border: none; 
+    border-radius: 82px; 
+    font-size: 1em; 
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease-in-out;
+    margin: 0.4em 0.3em 0 0;
+}
+
+button[type="submit"] {
+    background-color: greenyellow;
+    color: black;
+    border: greenyellow solid 1px;
+}
+
+button[type="submit"]:hover {
+    background-color: green;
+    color: white; 
+    border: black solid 1px;
+    transform: scale(1.03);
+}
+
+button[type="reset"]{
+    background-color: rgb(255, 146, 146);
+    color: black;
+    border: rgb(255, 146, 146) solid 1px;
+}
+
+button[type="reset"]:hover{
+    background-color: red;
+    color: white;
+    border: red solid 1px;
+    transform: scale(1.03);
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 0.6em;
+    padding: 0.4em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 0.85em;
+    margin: 0.3em 0 0.6em;
+    line-height: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.radio-group div {
+    border: solid 3px green;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background-color: rgb(203, 242, 226);
+    padding: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin: 2em auto;
+    max-width: 600px;
+}
+
+@media (max-height: 700px) {
+    form {
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+}

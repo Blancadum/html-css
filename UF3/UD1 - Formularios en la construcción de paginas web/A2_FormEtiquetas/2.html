@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario tipo "Encuesta"</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+    <h1>Formulario para encuesta</h1>
+    <form action="#process.php" method="post" lang="es"> 
+        <!--Protocolo POST para ocultar información importante o sensible a nivel navegador.
+        Añado lang="es" aunque esto ya se pone al principio de la página justo después de DOCTYPE html-->
+        <fieldset>
+            <legend>Datos personales</legend>
+                <label for="name" >Tu nombre:</label>
+                <input type="text" id="name" name="user_name" placeholder="Maripili" required />
+                <label for="surname">Tus apellidos:</label>
+                <input type="text" id="surname" name="user_surname" placeholder="González" required />
+                <label for="mail">Tu mejor correo:</label>
+                <input type="email" id="mail" name="user_email" placeholder="micorreo@gmail.com" required/>
+        </fieldset>
+        <fieldset>
+            <legend>Encuesta</legend>
+            <!--Question 1 -->
+                <p>¿Qué puntuación darías a esta página?</p>
+                <div class="radio-group">
+                    <label><input type="radio" name="puntuacion" value="1"> 1 </label><br>
+                    <label><input type="radio" name="puntuacion" value="2"> 2 </label><br>
+                    <label><input type="radio" name="puntuacion" value="3"> 3 </label><br>
+                    <label><input type="radio" name="puntuacion" value="4"> 4 </label><br>
+                    <label><input type="radio" name="puntuacion" value="5"> 5 </label><br>
+                </div>
+            <!--Question 2-->
+                <p>¿Qué apartados te gustaría añadir a esta página?</p>
+                    <label><input type="checkbox" name="apartados" value="blog">Blog</label>
+                    <label><input type="checkbox" name="apartados" value="fotos">Fotos</label>
+                    <label><input type="checkbox" name="apartados" value="redes">Redes</label>
+                    <label><input type="checkbox" name="apartados" value="musica">Música</label>
+                    <label><input type="checkbox" name="apartados" value="noticias">Noticias</label>
+        </fieldset>
+        <!--Buttons-->
+        <div class="buttons" style="text-align: center">
+            <button type="submit" action="./enviado.html" target="_blank">Enviar</button>
+            <button type="reset">Borrar</button>
+        </div>
+    </form>
+</body>
+</html>

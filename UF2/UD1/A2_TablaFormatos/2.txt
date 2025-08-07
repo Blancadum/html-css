@@ -1,0 +1,24 @@
+ELABORACIÓN DE TABLAS EN HOJAS DE ESTILO CSS
+
+PREGUNTAS/ACTIVIDADES A REALIZAR
+1. Crear una tabla en html de 3 filas y 4 columnas con algún texto en sus celdas. Se quiere resaltar el contenido de varias celdas, usando un archivo css externo.
+a. La tabla tendrá bordes sólidos de 3px y las celdas también pero de 2px. El color de todos los bordes serán negros.
+b. Utilizar una clase para resaltar la primera celda de cada fila, poniéndola de color azul sobre fondo amarillo.
+c. Utilizar seudoclases para resaltar la última celda de cada fila, poniéndola de color rojo sobre fondo gris.
+
+Debe quedar algo como en la imagen adjunta
+
+
+OBJETIVO/S DE LA ACTIVIDAD (Relacionados con la unidad/módulo formativo)
+
+C1: Describir las características de las hojas de estilo para dar formato a las páginas web, y crear ficheros de estilo de acuerdo a un diseño especificado.
+CE1.1 Identificar las características y ventajas que proporcionan las hojas de estilo para definir la forma de presentación de las páginas web según el diseño especificado.
+CE1.2 Describir las etiquetas y los atributos que se utilizan para definir estilos para una página y para partes de la misma, teniendo en cuenta unas especificaciones de diseño.
+CE1.3 Describir la sintaxis y los atributos que se utilizan para crear estilos, con el fin de crear ficheros con declaraciones de estilos.
+CE1.4 Enlazar las páginas de un sitio web con una fichero de estilo, para homogeneizar el aspecto del sitio web según unas especificaciones recibidas.
+CE1.5 Realizar un fichero con declaraciones de estilo para homogeneizar el formato de un sitio web, según un diseño especificado:
+– Identificar la sintaxis a utilizar para asignar el estilo a las etiquetas.
+– Enlazar las páginas web al fichero de estilos.
+– Probar las páginas utilizando varios navegadores web.
+– Aplicar criterios de «usabilidad» y accesibilidad
+– Documentar el fichero creado.

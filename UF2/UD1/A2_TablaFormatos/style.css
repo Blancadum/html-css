@@ -1,0 +1,23 @@
+/*STYLE CSS*/
+td{
+        border: black solid 2px;
+        padding: 8px;
+        text-align: center;
+}
+
+table{
+    border: 3px solid black;       
+    border-collapse: collapse;   
+    margin: 10px auto;
+}
+
+.resaltado{
+    color: blue; 
+    background-color: yellow;
+}
+
+
+tr td:last-child{
+    color: red;
+    background-color: gray;
+}

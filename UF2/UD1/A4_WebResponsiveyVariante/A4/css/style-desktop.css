@@ -1,0 +1,45 @@
+.columns {
+  display: flex;
+  justify-content: space-around;
+  gap: 2em;
+  padding: 1em;
+}
+
+.columna1,
+.columna2 {
+  width: 45%;
+  box-sizing: border-box;
+  overflow-y: auto;       /* Scroll vertical si se desborda */
+  padding: 1em;
+  line-height: 1.5em;
+  scrollbar-width: thin;
+  scrollbar-color: #fffacd #4a235a;
+}
+
+.columna1 {
+  height: 100px;
+  background-color: pink;
+}
+
+.columna2 {
+  height: 200px;
+  background-color: purple;
+  color: white;
+}
+
+/* WebKit Scrollbars */
+.columna1::-webkit-scrollbar,
+.columna2::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+.columna1::-webkit-scrollbar-thumb,
+.columna2::-webkit-scrollbar-thumb {
+  background-color: #fffacd;
+}
+
+.columna1::-webkit-scrollbar-track,
+.columna2::-webkit-scrollbar-track {
+  background-color: #4a235a;
+}

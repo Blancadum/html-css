@@ -1,0 +1,124 @@
+/* CSS Document */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+  margin: 2px;
+  padding: 0em;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: aquamarine;
+  box-shadow: 5px 0px 24px;
+}
+
+h1 {
+  font-size: 1.5em;
+  background-color: rgb(201, 226, 224);
+  text-align: center;
+}
+
+h2, h3 {
+  margin: 1em auto;
+}
+
+.jumbotron {
+  height: 300px;
+  background-image: url('../assets/img/elf.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background: rgb(33, 56, 54);
+  padding: 0.5em 0;
+}
+
+nav ul {
+  text-align: center;
+  max-width: 40%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+nav ul li {
+  list-style: none;
+  margin-bottom: 0.5em;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  background-color: beige;
+  display: block;
+  padding: 0.4em 0;
+  font-family: Arial;
+  padding: 10px;
+  border-radius: 15px; 
+}
+
+#inactive {
+  background-color: grey;
+  color: black;
+}
+
+section {
+  background-color: pink;
+  padding: 1em;
+}
+
+article:first-child {
+  background-color: palevioletred;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+article:nth-child(2) {
+  background-color: lightcoral;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+article:last-child {
+  background-color: purple;
+  color: white;
+  padding: 1em;
+}
+
+footer {
+  padding: 2em;
+  background-color: #222;
+  color: white;
+  text-align: center;
+}
+
+/*Contenido de las columnas, para darle un poco de estilo y retoques finales*/
+.columna1 h3,
+.columna2 h3 {
+  margin-left: 1.5em;      
+  margin-bottom: 0.5em;    
+}
+
+.columna1 ul,
+.columna2 ul {
+  padding-left: 2em;       
+  margin-top: 0.5em;       
+  margin-bottom: 1em;      
+  list-style-position: inside; 
+}
+
+.columna1 li,
+.columna2 li {
+  margin-bottom: 0.5em;   
+  line-height: 1.5em;      
+}

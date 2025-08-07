@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    color: #222;
+    background-color: #fff;
+}
+
+#cabecera{
+    text-align: center;
+    padding: 20px;
+    background-color:aquamarine;
+}   
+
+#central{
+    width:100%;
+    display: flex;
+}
+
+#left{
+    width: 50%;
+    background-color: violet;
+}
+
+#right{
+    width: 50%;
+    background-color: sandybrown;
+}
+#footer{
+    background-color: grey;
+    width:100%;
+    display: flex;
+}
+
+
+

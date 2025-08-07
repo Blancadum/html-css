@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plantilla de Examen</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- INICIO DE PLANTILLA -->
+  <main>
+    <form action="procesar_examen.php" method="post">
+
+      <fieldset>
+        <legend>Datos del alumno</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required>
+
+        <label for="grupo">Grupo</label>
+        <select id="grupo" name="grupo" required>
+            <option value="">-- Selecciona tu grupo --</option>
+            <option value="A">[Curso]A</option>
+            <option value="B">[Curso]B</option>
+            <option value="C">[Curso]C</option>
+            <option value="D">[Curso]D</option>
+        </select>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Preguntas de examen</legend>
+
+        <fieldset class="pregunta">
+
+          <legend>Pregunta 1</legend>
+          <label><input type="radio" name="p1" value="respuesta 1"> Respuesta 3</label>
+          <label><input type="radio" name="p1" value="respuesta 2"> Respuesta 2</label>
+          <label><input type="radio" name="p1" value="respuesta 3"> Respuesta 3</label>
+        </fieldset>
+
+        <fieldset class="pregunta">
+          <legend>Pregunta 2</legend>
+          <label><input type="radio" name="p2" value="respuesta 1"> Respuesta 1</label>
+          <label><input type="radio" name="p2" value="respuesta 2"> Respuesta 2</label>
+          <label><input type="radio" name="p2" value="respuesta 3"> Respuesta 3</label>
+        </fieldset>
+
+        <fieldset class="pregunta">
+          <legend>Pregunta 3</legend>
+          <label><input type="radio" name="p3" value="respuesta 1"> Respuesta 1</label>
+          <label><input type="radio" name="p3" value="respuesta 2"> Respuesta 2</label>
+          <label><input type="radio" name="p3" value="respuesta 3"> Respuesta 3</label>
+        </fieldset>
+
+        <fieldset class="pregunta">
+          <legend>Pregunta 4</legend>
+          <label><input type="radio" name="p4" value="respuesta 1"> Respuesta 1</label>
+          <label><input type="radio" name="p4" value="respuesta 2"> Respuesta 2</label>
+          <label><input type="radio" name="p4" value="respuesta 3"> Respuesta 3</label>
+        </fieldset>
+
+        <fieldset class="pregunta">
+          <legend>Pregunta 5</legend>
+          <label><input type="checkbox" name="p5[]" value="respuesta 1"> Respuesta 1</label>
+          <label><input type="checkbox" name="p5[]" value="respuesta 2"> Respuesta 2</label>
+          <label><input type="checkbox" name="p5[]" value="respuesta 3"> Respuesta 3</label>
+          <label><input type="checkbox" name="p5[]" value="respuesta 4"> Respuesta 4</label>
+        </fieldset>
+
+      </fieldset>
+
+      <div class="boton-derecha">
+        <button type="submit">Enviar examen</button>
+      </div>
+
+    </form>
+  </main>
+
+</body>
+</html>

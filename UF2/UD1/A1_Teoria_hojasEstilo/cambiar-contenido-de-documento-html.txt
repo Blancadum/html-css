@@ -1,0 +1,76 @@
+ENUNCIADO (DESCRIPCIÓN)
+
+
+
+
+
+
+Recordemos que una hoja de estilos (CSS) es un conjunto de reglas que los navegadores utilizan para interpretar como deben mostrar los diferentes elementos de un documento HTML.
+
+CSS es una herramienta que permite al diseñador realizar una unión de estilo (fuentes, tamaño, color, espacios, etc.) y añadirlo a un documento HTML.
+
+Las diferentes formas de incluir estilos CSS en un documento HTML:
+
+1) Usando una etiqueta LINK que llama a una CSS externa.
+
+2) Usando la etiqueta <STYLE> dentro de la <HEAD>
+
+3) Utilizando una CSS importada denominada @import.
+
+4) Un atributo de style usado dentro de <BODY>
+
+Recordemos también que para enlazar una hoja de estilo externa en un documento HTML se realiza a través de la etiqueta <link>, que debe posicionarse dentro de la sección <HEAD> con los atributos rel, type, href, y title definidos para conseguir que los estilos se carguen de forma adecuada.
+
+Un documento HTML podrá contener tantas hojas de estilo como sean necesarias.
+
+Los archivos de hojas de estilo son simples documentos de texto guardados con la extensión .css.
+
+Para importar una hoja de estilo se utiliza la directiva @import y solamente puede utilizarse dentro de una etiqueta <style> dentro de la sección <HEAD>.
+
+
+
+
+
+
+PREGUNTAS/ACTIVIDADES A REALIZAR
+
+
+
+
+
+
+1. Dado el siguiente documento html, realizar los cambios oportunos para separar el contenido del documento de la información relacionada con la presentación. Habrá que eliminar la información de estilos de las etiquetas html y crear reglas CSS.
+
+a. Ubicar las reglas CSS de forma incrustada dentro del documento html.
+b. Crear un archivo CSS independiente y enlazarlo con el documento html.
+c. ¿Cuáles son las ventajas de usar las hojas de estilo?
+d. ¿Cuáles son las distintas formas en que se pueden utilizar las hojas de estilo?
+e. Describe las partes y la sintaxis de una hoja de estilos.
+
+Documento html:
+
+<!DOCTYPEhtml>
+<htmllang="es">
+<head>
+<meta charset="UTF-8">
+<title>Estilos CSS</title>
+</head>
+<body>
+<h1 style="font-size:50px; color:blue; font-family:Verdana">Titular de la página</font></h1>
+<h2 style="font-size:30px; color:red; font-family:Arial">Subtítulo de la página</h2>
+<p style="font-size:20px; color:yellow; font-family:Arial; background: black">Un párrafo de textocomootrocualquiera.</p></body>
+</html>
+
+
+OBJETIVO/S DE LA ACTIVIDAD (Relacionados con la unidad/módulo formativo)
+C1: Describir las características de las hojas de estilo para dar formato a las páginas web, y crear ficheros de estilo de acuerdo a un diseño especificado.
+CE1.1 Identificar las características y ventajas que proporcionan las hojas de estilo para definir la forma de presentación de las páginas web según el diseño especificado.
+CE1.2 Describir las etiquetas y los atributos que se utilizan para definir estilos para una página y para partes de la misma, teniendo en cuenta unas especificaciones de diseño.
+CE1.3 Describir la sintaxis y los atributos que se utilizan para crear estilos, con el fin de crear ficheros con declaraciones de estilos.
+CE1.4 Enlazar las páginas de un sitio web con una fichero de estilo, para homogeneizar el aspecto del sitio web según unas especificaciones recibidas.
+CE1.5 Realizar un fichero con declaraciones de estilo para homogeneizar el formato de un sitio web, según un diseño especificado:
+– Identificar la sintaxis a utilizar para asignar el estilo a las etiquetas.
+– Enlazar las páginas web al fichero de estilos.
+– Probar las páginas utilizando varios navegadores web.
+– Aplicar criterios de «usabilidad» y accesibilidad.
+– Documentar el fichero creado.

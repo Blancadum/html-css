@@ -1,0 +1,34 @@
+ENUNCIADO (DESCRIPCIÓN)
+
+Cuando se desarrolla una página web es importante tener en cuenta el aspecto visual, y parte esencial son las imágenes y la interacción con ellas. Además de las imágenes el contenido multimedia con audio y video contribuye al enriquecimiento de una página web.
+
+
+
+
+PREGUNTAS/ACTIVIDADES A REALIZAR
+
+1. Cite las etiquetas y atributos que se necesitan para insertar imágenes y elementos multimedia en un sitio web, y explique cómo se insertaría un video de Youtube.
+
+
+
+
+INFORMACIÓN ADICIONAL/ORIENTACIONES PARA DESARROLLAR LA ACTIVIDAD
+
+Es importante fijarse bien en la apertura y cierre de etiquetas, así como en las comillas utilizadas para definir los atributos. Un error común en la inserción de imágenes es escribir correctamente la ruta, el nombre y la extensión del archivo de la imagen.
+
+Cuando no se especifica nada en los ejercicios se deben buscar las imágenes en internet y puede ser de cualquier tema que se desee.
+
+
+
+OBJETIVO/S DE LA ACTIVIDAD (Relacionados con la unidad/módulo formativo)
+
+Describir y utilizar las etiquetas y atributos necesarios para insertar imágenes en una página web. Identificar distintos tipos de formato de los archivos multimedia, tanto audio como video que se integran en las páginas web. Citar las etiquetas y atributos que se necesitan para insertar imágenes y elementos multimedia, así como para crear mapas de imágenes en función de las especificaciones recibidas. Mapear una imagen creando varias zonas activas. Insertar marcas para insertar audios y videos.
+
+C1: Identificar los elementos proporcionados por los lenguajes de marcas y confeccionar páginas web utilizando estos lenguajes teniendo en cuenta sus especificaciones técnicas.
+
+CE1.4 Identificar los tipos de formatos de los archivos multimedia, tanto audio como vídeo que se integran en las páginas web.
+
+CE1.5 Citar las etiquetas y atributos que se necesitan para insertar imágenes y elementos multimedia, así como para crear mapas de imágenes en función de las especificaciones recibidas.
+
+CE1.6 Explicar los criterios de «usabilidad» y accesibilidad a los contenidos de páginas web, para permitir una mejor calidad de navegación y comprensión de los usuarios, teniendo en cuenta criterios definidos y normativa estándar de accesibilidad y «usabilidad».
+

@@ -1,0 +1,22 @@
+DOCUMENTO HTML CON 3 ENLACES
+
+PREGUNTAS/ACTIVIDADES A REALIZAR
+
+1. Cree un documento html donde aparezcan 3 enlaces. Se quiere modificar el aspecto predeterminado que tienen los enlaces de forma que:
+a. El color por defecto del enlace sea amarillo con fondo azul.
+b. Al pasar el ratón por encima el color del enlace sea negro y la letra esté en negrita y el fondo amarillo.
+c. Cuando un enlace haya sido visitado el enlace aparecerá de color rojo y con fondo blanco.
+
+OBJETIVO/S DE LA ACTIVIDAD (Relacionados con la unidad/módulo formativo)
+C1: Describir las características de las hojas de estilo para dar formato a las páginas web, y crear ficheros de estilo de acuerdo a un diseño especificado.
+CE1.1 Identificar las características y ventajas que proporcionan las hojas de estilo para definir la forma de presentación de las páginas web según el diseño especificado.
+CE1.2 Describir las etiquetas y los atributos que se utilizan para definir estilos para una página y para partes de la misma, teniendo en cuenta unas especificaciones de diseño.
+CE1.3 Describir la sintaxis y los atributos que se utilizan para crear estilos, con el fin de crear ficheros con declaraciones de estilos.
+CE1.4 Enlazar las páginas de un sitio web con una fichero de estilo, para homogeneizar el aspecto del sitio web según unas especificaciones recibidas.
+CE1.5 Realizar un fichero con declaraciones de estilo para homogeneizar el formato de un sitio web, según un diseño especificado:
+– Identificar la sintaxis a utilizar para asignar el estilo a las etiquetas.
+– Enlazar las páginas web al fichero de estilos.
+– Probar las páginas utilizando varios navegadores web.
+– Aplicar criterios de «usabilidad» y accesibilidad.
+– Documentar el fichero creado.
+

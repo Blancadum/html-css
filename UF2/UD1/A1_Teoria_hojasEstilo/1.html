@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Estilos CSS</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <h1>Actividad 1 Caso práctico</h1>
+        <h2>¿Cuáles son las ventajas de usar las hojas de estilo?</h2>
+        <ol>
+            <li>La <strong>separación</strong> del contenido de html del de css va a permitir, en caso de que lo haya, una detección más temprana de los errores que pudiera haber, porque el código está limpio, ordenado, tiene lo mínimo que tiene que tener (html o css, según si hablamos de la estructura o las órdenes para pintar esa estructura). En definitiva, da lugar a una optimización del código para que éste pueda ser escalable y eliminamos, de paso, la probabilidad de cometer errores que impidan la correcta visualización de la página.</li>
+            <li>Una <strong>carga optimizada</strong> en la performatividad del trabajo entre cliente y servidor. Al tener todas las órdenes de css en un archivo a parte, suponiendo que nos hemos preocupado por no repetir órdenes innecesarias y por optimizar la forma en que vamos a utilizar las clases a la hora de decorar nuestra estructura web, estamos ayudando a los navegadores a leer nuestra web de forma más rápida y eficiente. En sitios grandes o con mucho contenido html, es muy probable que, si inyectamos directamente el estilo dentro del código html, cometamos errores o incongruencias. Es, a la hora de volcarlo a una hoja de estilo, cuando vemos posibles incompatibilidades relacionadas con órdenes que se contradicen o que necesitan de cierto orden dentro de la hoja de estilos para poder funcionar correctamente. Todo ese exceso de código innecesario dentro del html, es mal visto por los "robotes" de Google que tienen un presupuesto de tiempo para leer tu web, catalogarla, categorizarle y darle una puntuación para posicionarla en las Serps. De eso se trata lo que se conoce como <strong>SEO técnico.</strong> No olvidemos que la calidad de la web influye en su monetización por medio de Google Ads debido a la autoridad que nos aporta, entre otros, una buena puntuación de Google (aunque habría que hablar de los backlinks de calidad, así como sobre nuestra manera de distribuir los enlaces salientes... y un largo etcétera). Pero está claro que Google ahora es más exigente que nunca por la acelerada democratización que ha habido en la creación web gracias a la emergencia de las IA.</li>
+            <li>Esa claridad en el código que aporta separar la parte de estilos de la de la estructura nos va a permitir pensar mejor en cómo reutilizar clases, cómo aplicar una misma clase o un conjunto de reglas a varios elementos sólo de un vistazo. Algo que no podríamos conseguir con un "churro" de código en html mezclando estilo y estructura. La única preocupación que tendremos, en este caso, es la de <strong>enlazar correctamente</strong> la hoja de estilos a nuestro archivo html.</li>
+            <li>Podremos utilizar varias hojas de estilo dependiendo de las necesidades, a favor del UX, ya sea por motivos de <strong>responsividad</strong> así como por la <strong>accesibilidad y adaptabilidad</strong>. Vamos a poder afinar más en esos estilos que queramos dar a nuestra web según, por ejemplo, el navegador en el que se cargue. También podremos establecer la disposición de los componentes de la misma según las dimensiones del dispositivo en el que se renderice. Conociendo la forma en que cada navegador reproduce nuestra web, podremos <strong>resetear estilos</strong> (con el * asterisco). Es decir, que vamos a poder <u>pensar en grande</u> para optimizar nuestra página web y, como decía, hacerla <span style="background-color: #48ff00;">escalable.</style></li>
+        </ol>
+        <p>Incluso, cuando, simplemente, queramos practicar los atributos y propiedades de los estilos, nos va a venir mejor usar y enlazar hojas de estilo. </p>
+        <h2>¿Cuáles son las distintas formas en que se pueden utilizar las hojas de estilo?</h2>
+        <p>Las hojas de estilo podemos utilizarlas programando con javascript para usos como el del switch de estilo nocturno/diurno, o para aplicar un tema otoñal sincronizando con el momento en que nos encontramos también utilizando javascript y alguna api de  geolocalización que indique en qué hemisferio nos encontramos, y así con todas las estaciones del año y cualquier uso que se nos ocurra. Sin estas hojas de estilo (guardadas en una carpeta determinada de nuestro proyecto) sería imposible hacer ese "switch" entre estaciones o modos oscuros/claros.</p>
+        <p>Por otro lado, si nos estamos refiriendo a cómo insertarla dentro del proyecto, tenemos cuatro formas distintas de utilizar las hojas de estilo:</p>
+        <ol>
+            <li>Usando <link rel="stylesheet" href="estilos.css"> dentro del espacio dedicado al head de la página. </li>
+            <li>Usando el @import para importar hojas de estilo propias o cuando trabajamos con frameworks o librerías de estilos. Con import lo que estamos diciendo es que importamos esa librería de la que vamos a utilizar algunos recursos ya establecidos. Por ejemplo: Google fonts o para cargar TailwindCSS desde CDN, con npm y build, (además de las hojas de estilo propias). </li>
+        </ol>
+        <h2>Describe las partes y la sintaxis de una hoja de estilos</h2>
+        <p>Para elaborar correctamente una hoja de estilos, deberemos conocer sus partes y las reglas con las que nos vamos a comunicar con el navegador para que reproduzca exactamente lo que queremos nosotros. Las partes:</p>
+        <ul>
+            <li><strong>Selector</strong>: Como su propio nombre indica, el selector selecciona las partes del html a las que queremos volcar un estilo determinado. Es decir, le vamos a señalar a la hoja de estilos qué parte de nuestra maqueta vamos a querer "decorar". </li>
+            <li><strong>Propiedad</strong>: Estamos haciendo referencia a qué tipo de modificación vamos a querer hacer. Por ejemplo, color,  altura, anchura, padding, margen, posición... </li>
+            <li><strong>Valor</strong>: Sabiendo a qué propiedad nos referimos y qué parte del html queremos modificar mediante la hoja de estilos (selector), con el valor, vamos a darle la instrucción de cómo queremos modificar la propiedad.</li>
+        </ul>
+    <p>Por ejemplo, si queremos amarillo (valor) en la propiedad del color de fondo (background-color, propiedad) que afecta solo a un div (selector). El selector, a su vez, puede ser más o menos sofisticado si utilizamos solo clases o seudoclases o combinación de elementos y clases... etc.</p>
+    
+    </body>
+    </html>

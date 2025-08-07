@@ -1,0 +1,7 @@
+ENUNCIADO (DESCRIPCIÓN)
+
+Los formularios tradicionales en papel están desapareciendo, ahora muchos de los tramites se realizan mediante formularios web. A veces al transformar diversos elementos del mundo real como el papel a un formulario web tenemos que tener en cuenta ciertas peculiariadades tales como que las listas desplegables no son posibles utilizarlas en los formularios clásicos. En esta imagen tenemos un ejemplo concreto de ello.
+
+PREGUNTAS/ACTIVIDADES A REALIZAR
+
+Pregunta 1. Transformar el formulario tradicional en papel a un formulario en html. Contemplando las opciones de listas desplegables o combos y los botones de selección múltiple.

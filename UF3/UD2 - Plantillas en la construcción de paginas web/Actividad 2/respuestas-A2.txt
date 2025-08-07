@@ -1,0 +1,23 @@
+PREGUNTAS/ACTIVIDADES A REALIZAR
+
+Pregunta 1. Recupera la plantilla que elaboraste en el ejercicio anterior, ya que en esta ocasión la vas a utilizar para crear exámenes de distintas asignaturas.
+
+¿Se puede utilizar la misma plantilla para distintas asignaturas? ¿Por qué? ¿Qué partes de la plantilla habría que modificar?
+Si quieres crear la plantilla usando Dreamweaver y se quiere guardar para uso futuro ¿qué extensión se debería poner al archivo? ¿Por qué?
+¿Qué es un CMS?, ¿qué ventajas tienen? Indique el nombre de 3 CMS que conozca.
+
+Sí se puede usar la misma plantilla para distintas asignaturas, para eso es una plantilla. Habrá que dejar claro en qué partes se puede editar. Es decir, lo que no se modifica es el modelo de pregunta-respuesta pero lo que sí podrá cambiarse es el contenido de la respuesta, lo que hay entre las etiquetas <input></input>, básicamente. También deberán modificarse y personalizarse las clases, los names, los id y los value… así como lo que hayamos establecido como <legend></legend> o titles… etc.
+
+Dreamweaver lo usé hace muchísimo tiempo, no he vuelto a usarlo y no me acuerdo, pero porque lo utilicé cuando había ADSL y mis padres solo me dejaban usar internet una hora al día. 
+Pero lo que sí he utilizado ha sido WordPress, directamente, en línea. En este caso, la plantilla debería guardarse en php, supongo, porque es lo que maneja WordPress (aunque tengo entendido que, en realidad utiliza un lenguaje híbrido propio basado en php). Por mantener un poco el orden de la plantilla, lo ideal sería comentar el autor y la versión de la plantilla que sea, sobre todo si queremos compartirla a cambio de ser mencionados. O tenemos en mente comercializarla en algún momento.
+
+CMS significa Content Management System, es un entorno de trabajo ideal para las personas que no conocen lenguajes de marcas o que prefieren hacer webs sin mucha complicación, con modelos de template y elementos de web ya prediseñados y al estilo de "drag and drop". En otras palabras, a la hora de hacer webs serían lo más parecido a un "plug and play", casi. 
+
+Algunos CMS conocidos podrían ser: 
+- Para tiendas online: PrestaShop, Shopify... 
+- Joomla!
+- Magento
+- WooCommerce
+- Wix
+
+Los que más conozco son Shopify (no lo sé utilizar), WordPress (sí, con alguna web monetizada con adsense y afiliados aunque necesitan una manita de gato... ) y woocommerce. 

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa de Imagen con mis guías favoritas de W3Schools</title>
+</head>
+<body>
+
+  <h1>Guías de W3Schools</h1>
+
+  <!-- Imagen cuadrada con 4 colores -->
+  <img src="./img/cuatro-colores.png" alt="Mapa de colores"
+       usemap="#mapaGuías" width="400" height="400">
+
+  <!-- Mapa de imagen -->
+  <map name="mapaGuías">
+    <!-- HTML - Cuadro superior izquierdo -->
+    <area shape="rect" coords="0,0,200,200"
+          href="https://www.w3schools.com/html/" target="_blank"
+          alt="Guía de HTML" title="Ver guía de HTML en W3Schools">
+
+    <!-- CSS - Cuadro superior derecho -->
+    <area shape="rect" coords="200,0,400,200"
+          href="https://www.w3schools.com/css/" target="_blank"
+          alt="Guía de CSS" title="Ver guía de CSS en W3Schools">
+
+    <!-- JavaScript - Cuadro inferior izquierdo -->
+    <area shape="rect" coords="0,200,200,400"
+          href="https://www.w3schools.com/js/" target="_blank"
+          alt="Guía de JavaScript" title="Ver guía de JavaScript en W3Schools">
+
+    <!-- React - Cuadro inferior derecho -->
+    <area shape="rect" coords="200,200,400,400"
+          href="https://www.w3schools.com/react/" target="_blank"
+          alt="Guía de React" title="Ver guía de React en W3Schools">
+  </map>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+Los elementos esenciales de una plantilla web son aquellos que permiten reutilizar el contenido de forma sencilla y adaptarlo según nuestras necesidades. Por ejemplo, debe estar bien estructurada con etiquetas como <form>, <fieldset> y <legend>, para que el formulario quede dividido en zonas claras y organizadas. Al final, todo esto también aporta información semántica útil para los buscadores… y para los “robotes”.
+
+También es importante incluir comentarios dentro del código para entender mejor qué hace cada parte. Así, cualquier persona puede editar la plantilla sin necesidad de probar cada vez.
+
+Como todo formulario, debe tener un atributo action que se pueda modificar fácilmente, para enviar los datos a la página que necesitemos. Y conviene que sea reutilizable, incluyendo ejemplos de todos los tipos de preguntas y respuestas posibles. Es mejor que sobre y luego se elimine lo que no haga falta.
+
+Por último, desde la herramienta “Inspeccionar” del navegador (la consola de desarrollo), se puede ver la estructura de la página y cada una de sus partes al pasar el ratón por encima del código. De hecho, es una forma muy útil de localizar claramente dónde insertar cualquier fragmento, como el formulario. En mi caso, al principio no entendí bien el enunciado y me lancé a hacer el formulario completo con su CSS. Pero después comprendí lo que se pedía y lo integré correctamente dentro de la plantilla.
